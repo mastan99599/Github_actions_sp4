@@ -51,7 +51,7 @@ jobs:
         run: python shaik.py
 
   run_python_folder_script: 
-     needs: [job1, job2]
+    needs: [job1, job2]
     runs-on: ubuntu-latest
 
     steps:
