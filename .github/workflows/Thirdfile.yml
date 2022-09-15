@@ -63,4 +63,4 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: hello i am form if condition!
+        run: echo hello i am form if condition!
