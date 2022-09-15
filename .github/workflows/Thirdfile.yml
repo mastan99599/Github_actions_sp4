@@ -49,7 +49,7 @@ jobs:
 
   job3:
     if: ${{ always() }}
-     needs: [job1, job2]
+    needs: [job1, job2]
     
     # The type of runner that the job will run on
     #runs-on: self-hosted
