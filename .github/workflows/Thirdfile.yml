@@ -48,7 +48,7 @@ jobs:
         run: echo hello i am form if condition!
 
   job3:
-    if: ${{ always() }}
+    if: ${{always()}}
     needs: [job1, job2]
     
     # The type of runner that the job will run on
